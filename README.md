@@ -14,6 +14,16 @@ Ren'Py 游戏的 `game/` 文件夹跨平台通用。Windows 版和 Mac 版的区
 
 ## 快速开始
 
+### 让 AI 帮你做（推荐）
+
+把 `guide.md` 放到游戏所在目录，启动 [Claude Code](https://docs.anthropic.com/en/docs/claude-code)、[Trae](https://trae.ai) 或其他 AI 编程助手，直接说：
+
+```
+参考 guide.md，帮我把这个 Windows 版 Ren'Py 游戏打包成 Mac 应用
+```
+
+AI 会自动读取指南、下载 SDK、组装 .app、设置权限，你只需要等结果。
+
 ### 一键脚本
 
 修改脚本顶部三个变量，直接运行：
